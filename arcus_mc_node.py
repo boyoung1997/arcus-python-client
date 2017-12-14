@@ -28,7 +28,7 @@ import select
 from arcus import *
 
 
-# Some parts of Connection and ArcusMCNode is came from python memcache module
+# Some parts of Connection and ArcusMCNode are came from python memcache module
 class Connection(object):
 	def __init__(self, host):
 		ip, port = host.split(':')
